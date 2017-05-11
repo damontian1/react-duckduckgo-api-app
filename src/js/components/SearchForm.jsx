@@ -10,7 +10,7 @@ var SearchForm = React.createClass({
 	render: function(){
 		return(
 			<div className="well text-center">
-				<h2>DUCK DUCK GO</h2>
+				<h2>DUCK DUCK GO!</h2>
 				<form onSubmit={this.submitHandler}>
 					<div className="form-group">
 					<input type="text" className="form-control" ref="text" placeholder="Enter your search here..." />
