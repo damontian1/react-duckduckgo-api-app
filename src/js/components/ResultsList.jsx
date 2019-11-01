@@ -1,7 +1,7 @@
 var React = require("react");
 var Actions = require("../actions/Actions.js");
 var Store = require("../store/Store.js");
-var api = require("../api/api.js");
+// var api = require("../api/api.js");
 var Result = require("./Result.jsx");
 
 var ResultsList = React.createClass({

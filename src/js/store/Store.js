@@ -40,8 +40,6 @@ Dispatcher.register(function(data){
 			Store.saveSearch(action.search.text)
 			// set search to api
 			api.sendSearch(action.search)
-			// emit to client-side to update state
-			Store.emitChange()
 			break;
 		case "RECEIVE_RESULTS":
 			// set results to store
